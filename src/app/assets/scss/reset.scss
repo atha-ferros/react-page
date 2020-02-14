@@ -854,6 +854,7 @@ p.accent {
     padding-top: 6px;
     font-size: 11px;
     animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    max-width: 200px;
 }
 
 .centre{
@@ -864,4 +865,8 @@ p.accent {
 
 .left{
     text-align: left;
+}
+
+h2{
+    font-size: 60px;
 }

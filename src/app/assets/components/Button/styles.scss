@@ -1,0 +1,19 @@
+@import '../../scss/global.scss';
+
+.active-button{
+    border-radius: 27px;
+    border: solid 1px #acacac;
+    background-color: #d6d6d6;
+    padding: 20px 50px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.button{
+    border-radius: 27px;
+    border: solid 1px #acacac;
+    background-color: white;
+    padding: 20px 50px;
+    max-width: 200px;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+@import '../../../assets/scss/global.scss';
+
+.section2-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .left-section{
+        flex:1;
+        text-align: left;
+        padding: 10%;
+        h2{
+            font-size: 60px;
+            // width:60%;
+            margin: 0px auto 80px;
+            
+        }
+        p{
+            font-size: 20px;
+            // width:50%;
+            margin: auto;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.55;
+            letter-spacing: normal;
+            text-align: left;
+            color: #5d5d5d;
+        }
+    }
+    .right-section{
+        flex:1;
+        padding-left: 100px;
+        text-align: right;
+        // img{
+        //     width: 98%;
+        //     height: 100%;
+        // }
+    }
+}
