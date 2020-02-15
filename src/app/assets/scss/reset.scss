@@ -76,6 +76,7 @@ time,
 mark,
 audio,
 video {
+    font-family: 'Lato', sans-serif;;
     margin: 0;
     padding: 0;
     border: 0;
@@ -132,7 +133,7 @@ section {
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Montserrat', sans-serif;
     font-size: 14px !important;
     line-height: 18px;
     color: #4a4a4a;
@@ -242,7 +243,7 @@ pre,
 code,
 kbd,
 samp {
-    font-family: monospace, sans-serif;
+    // font-family: monospace, sans-serif;
 }
 
 body,
@@ -628,7 +629,7 @@ p.accent {
 }
 .rupees{
     display: inline-block !important;
-    font-family: Arial, Helvetica, sans-serif;
+    // font-family: Arial, Helvetica, sans-serif;
 }
 
 .padTzero{
