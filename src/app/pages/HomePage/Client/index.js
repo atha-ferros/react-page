@@ -1,8 +1,8 @@
 import React from 'react'
 import './styles.scss'
-import Images from '../../../assets/images/images'
+import images from '../../../assets/images/images'
 
-export default class Section2 extends React.Component {
+export default class Client extends React.Component {
 
     constructor(props){
         super(props)
@@ -45,14 +45,11 @@ export default class Section2 extends React.Component {
     /* render is called to paint the dom */
     render = () => {
         return(
-            <div className="section2-container">
-                <div className="left-section">
-                    <h2>ABOUT US</h2>
-                    <p>Astha Ferrotech Pvt Ltd is a professionally managed organization that has been recognized as a leading manufacturer of Low Carbon & Medium Carbon Ferro Alloys including Noble Alloys.</p>
-                </div>
-                <div className="right-section">
-                    <img src={Images.section2}/>
-
+            <div className="client-container">
+                <img src={images.client} />
+                <div className="right">
+                    <h2>Clientele</h2>
+                    <p>During its 16-year journey, the company catered to an impressive clientele with likes of Tata Steel Ltd, Usha Martin Ltd (now taken over by Tata Steel Long Products Ltd), Jindal Steel & Power Ltd, SAIL’s Bhilai Steel Plant, Bokaro Steel Plant, Alloy Steel Plant, Bhushan Power & Steel Ltd, Tata Steel BSL Ltd (Meramandli) and many more, all over India.</p>
                 </div>
             </div>
         )

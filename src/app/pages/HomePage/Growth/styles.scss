@@ -1,32 +1,23 @@
 @import '../../../assets/scss/global.scss';
 
-.section3-container{
+.growth-container{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     // display: flex;
     // align-items: center;
     // justify-content: center;
+    position: relative;
     text-align: center;
-    .button-container{
-        width: 30%;
-        margin: 85px auto;
-        display: flex;
-        justify-content: space-between;
-        .left{
-            flex:1;
-            text-align: right;
-            margin-right: 70px;
-            width: 100px;
-        }
-        .right{
-            flex:1;
-            text-align: left;
-            margin-left: 70px;
-            width: 100px;
-        }
+    padding-bottom: 50px;;
+    .banner{
+        width:100%;
+        margin-bottom: 132px;;
+    }
+    h2{
+        margin-bottom: 70px;
     }
     p{
-        width: 30%;
+        width: 70%;
         text-align: center;
         margin:auto;
         font-size: 20px;
@@ -37,5 +28,6 @@
         letter-spacing: normal;
         text-align: center;
         color: #5d5d5d;
+        margin-bottom: 50px;
     }
 }

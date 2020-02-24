@@ -1,16 +1,7 @@
 import React from 'react'
 import './styles.scss'
-import Section1 from './Section1'
-import About from './About'
-import Growth from './Growth'
-import MDSpeaks from './MDSpeaks'
-import Overview from './Overview'
-import Products from './Products'
-import Org from './Org'
-import Client from './Client'
-import Footer from './Footer'
 
-export default class HomePage extends React.Component {
+export default class Footer extends React.Component {
 
     constructor(props){
         super(props)
@@ -53,16 +44,33 @@ export default class HomePage extends React.Component {
     /* render is called to paint the dom */
     render = () => {
         return(
-            <div className="home-page-container">
-                <Section1/>
-                <About/>
-                <Growth/>
-                <MDSpeaks/>
-                <Overview/>
-                <Products/>
-                <Org/>
-                <Client/>
-                <Footer/>
+            <div className="footer">
+                <div className="left">
+                    <h2>Contact US</h2>
+                    <p className="inline">Address: </p>
+                    <p className="inline">Astha Ferrotech Pvt Ltd, <br/>
+                        B-2, near industrial estate,<br/>
+                        Adityapur Industrial Area,<br/>
+                        Adityapur, Jamshedpur - 832109</p>
+                    <p>PHONE NO.: 0657-2200141/2200731<br/>
+                        FAX: 06572200106<br/>
+                        OFFICE CELL: +91 9304021627</p>
+                </div>
+                <div className="right">
+                    <div className="menu-left">
+                        <p>home</p>
+                        <p>our initiatives</p>
+                        <p>gallery</p>
+                        <p>conatct us</p>
+                    </div>
+                    <div className="menu-right">
+                        <p>Careers</p>
+                        <p>Press</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <p className="footer">2020 Astha Ferrotech Pvt. Ltd.<br/>
+All Rights Reserved.</p>
+                </div>
             </div>
         )
     }

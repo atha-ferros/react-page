@@ -1,0 +1,28 @@
+@import '../../../assets/scss/global.scss';
+
+.md-speaks-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding: 70px 50px;
+    .img{
+        flex: 2;
+        margin-top: 100px;
+        text-align: right;
+    }
+    .content{
+        flex: 3;
+        text-align: left;
+        padding-right: 100px;
+        padding-left: 50px;
+        .designation{
+            margin: 70px 0px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        .message{
+            font-size: 20px;
+            padding-right: 20px 
+        }
+    }
+}

@@ -1,22 +1,8 @@
 import React from 'react'
 import './styles.scss'
-import Button from '../../../assets/components/Button'
+import images from '../../../assets/images/images'
 
-const content = [
-    {
-        label: 'History',
-        content: 'The project was initiated on January 1, 2003 to set up a small-scale industry at Adityapur Industrial Area, Jamshedpur for manufacturing a wide range of Ferro alloys to cater to the needs of steel plants all over the country. Jamshedpur for manufacturing a wide range of Ferro alloys to cater to the needs of steel plants.'
-    }, {
-        label: 'future plans',
-        content: ''
-    }
-]
-
-export default class Section3 extends React.Component {
-
-    state = {
-        selected: 0
-    }
+export default class Org extends React.Component {
 
     constructor(props){
         super(props)
@@ -56,35 +42,15 @@ export default class Section3 extends React.Component {
 
     }
 
-    selectOption = (index) => {
-        this.setState({
-            selected: index
-        })
-    }
-
     /* render is called to paint the dom */
     render = () => {
         return(
-            <div className="section3-container">
-                {/* <img src={} className="banner"/> */}
-                <h2>GROWTH STORY</h2>
-                <div className="button-container">
-                    {
-                        content.map((item, index) => (
-                            <div className={index%2===0?'left':'right'}>
-                                <Button active={this.state.selected===index} onClick={() => this.selectOption(index)}>{item.label}</Button>
-                            </div>
-                        ))
-                    }
-                </div>
-                <p>
-                {
-                    content[this.state.selected].content
-                }
-                </p>
+            <div className="org-container">
+                <h2>Organisational Structure</h2>
+                <img src={images.org}/>
             </div>
         )
-    }
+    }   
 
 
 }

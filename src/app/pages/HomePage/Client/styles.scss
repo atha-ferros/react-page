@@ -1,0 +1,22 @@
+@import '../../../assets/scss/global.scss';
+
+.client-container{
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #dfdfdf;
+    padding: 200px 20%;
+    img{
+
+    }
+    .right{
+        width: 50%;
+        text-align: left;
+        padding-top: 5%;
+        h2{
+            margin-bottom: 50px;
+        }
+    }
+}

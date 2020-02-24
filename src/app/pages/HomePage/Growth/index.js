@@ -1,16 +1,24 @@
 import React from 'react'
 import './styles.scss'
-import Section1 from './Section1'
-import About from './About'
-import Growth from './Growth'
-import MDSpeaks from './MDSpeaks'
-import Overview from './Overview'
-import Products from './Products'
-import Org from './Org'
-import Client from './Client'
-import Footer from './Footer'
+import Button from '../../../assets/components/Button'
+import Images from '../../../assets/images/images'
 
-export default class HomePage extends React.Component {
+
+const content = [
+    {
+        label: 'History',
+        content: 'The project was initiated on January 1, 2003 to set up a small-scale industry at Adityapur Industrial Area, Jamshedpur for manufacturing a wide range of Ferro alloys to cater to the needs of steel plants all over the country. Jamshedpur for manufacturing a wide range of Ferro alloys to cater to the needs of steel plants.'
+    }, {
+        label: 'future plans',
+        content: ''
+    }
+]
+
+export default class Section3 extends React.Component {
+
+    state = {
+        selected: 0
+    }
 
     constructor(props){
         super(props)
@@ -50,19 +58,23 @@ export default class HomePage extends React.Component {
 
     }
 
+    selectOption = (index) => {
+        this.setState({
+            selected: index
+        })
+    }
+
     /* render is called to paint the dom */
     render = () => {
         return(
-            <div className="home-page-container">
-                <Section1/>
-                <About/>
-                <Growth/>
-                <MDSpeaks/>
-                <Overview/>
-                <Products/>
-                <Org/>
-                <Client/>
-                <Footer/>
+            <div className="growth-container">
+                <img src={Images.growth} className="banner"/>
+                <h2>GROWTH STORY</h2>
+                <p>
+                {
+                    content[this.state.selected].content
+                }
+                </p>
             </div>
         )
     }

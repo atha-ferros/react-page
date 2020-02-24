@@ -1,16 +1,8 @@
 import React from 'react'
 import './styles.scss'
-import Section1 from './Section1'
-import About from './About'
-import Growth from './Growth'
-import MDSpeaks from './MDSpeaks'
-import Overview from './Overview'
-import Products from './Products'
-import Org from './Org'
-import Client from './Client'
-import Footer from './Footer'
+import images from '../../../assets/images/images'
 
-export default class HomePage extends React.Component {
+export default class Products extends React.Component {
 
     constructor(props){
         super(props)
@@ -53,16 +45,12 @@ export default class HomePage extends React.Component {
     /* render is called to paint the dom */
     render = () => {
         return(
-            <div className="home-page-container">
-                <Section1/>
-                <About/>
-                <Growth/>
-                <MDSpeaks/>
-                <Overview/>
-                <Products/>
-                <Org/>
-                <Client/>
-                <Footer/>
+            <div className="product-container">
+                <div className="content">
+                    <h2>OUR Products</h2>
+                    <p>The company has been manufacturing <b>low carbon ferro manganese, medium carbon ferro manganese, ferro titanium ferro molybdenum & ferro chrome.</b> We also manufacture <b>aluminium cubes, shots & ingots.</b> We are also planning to add more products as per the demand in the market.</p>
+                </div>
+                <img src={images.product}/>
             </div>
         )
     }

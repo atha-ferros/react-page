@@ -149,7 +149,7 @@ body{
   }
 
 html, body{
-    overflow: auto;
+    // overflow: auto;
     -webkit-overflow-scrolling: touch; 
 }
 
@@ -272,7 +272,7 @@ h6 {
 }
 
 html {
-    overflow-y: scroll;
+    // overflow-y: scroll;
 }
 
 a:hover,
@@ -870,4 +870,5 @@ p.accent {
 
 h2{
     font-size: 60px;
+    text-transform: uppercase;
 }
