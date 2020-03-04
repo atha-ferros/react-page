@@ -2,7 +2,7 @@
 
 .footer{
     width: 100vw;
-    padding: 10% 20%;  
+    padding: 10%;  
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,8 @@
     h2{
         font-size: 30px;
         color: white;
-        margin-bottom: 60px;;
+        margin-bottom: 60px;
+        margin-top: 20px;
     }
     .left{
         // flex:1;

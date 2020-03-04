@@ -45,7 +45,7 @@ export default class MDSpeaks extends React.Component {
     /* render is called to paint the dom */
     render = () => {
         return(
-            <div className="md-speaks-container">
+            <div className="md-speaks-container max-width-container">
                 <div className="img">
                     <img src={Images.md} className=""/>
                 </div>

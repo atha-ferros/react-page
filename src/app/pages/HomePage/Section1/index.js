@@ -46,7 +46,7 @@ export default class Section1 extends React.Component {
     render = () => {
         return(
             <div className="section1-container">
-                <h1 className="heading">
+                <h1 className="heading max-width-container">
                     Welcome to<br/>
                     our World of Alloyage
                 </h1>

@@ -1,20 +1,25 @@
 @import '../../../assets/scss/global.scss';
 
 .md-speaks-container{
-    display: flex;
+    // display: flex;
     min-height: 100vh;
     width: 100vw;
-    padding: 70px 50px;
+    // padding: 70px 50px;
     .img{
-        flex: 2;
+        flex: 1;
         margin-top: 100px;
-        text-align: right;
+        text-align: left;
+        display: inline-block;
+        /* margin-top: 100px; */
+        text-align: left;
+        vertical-align: text-bottom;
+        background-color: white;
     }
     .content{
-        flex: 3;
+        flex: 2;
         text-align: left;
-        padding-right: 100px;
-        padding-left: 50px;
+        display: inline-block;
+        width: 47%;
         .designation{
             margin: 70px 0px;
             font-size: 20px;
@@ -22,7 +27,6 @@
         }
         .message{
             font-size: 20px;
-            padding-right: 20px 
         }
     }
 }

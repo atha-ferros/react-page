@@ -69,12 +69,15 @@ export default class Section3 extends React.Component {
         return(
             <div className="growth-container">
                 <img src={Images.growth} className="banner"/>
+                <div className="max-width-container">
+
                 <h2>GROWTH STORY</h2>
                 <p>
                 {
                     content[this.state.selected].content
                 }
                 </p>
+                </div>
             </div>
         )
     }

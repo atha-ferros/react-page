@@ -66,16 +66,14 @@ export default class Management extends React.Component {
                             <p><p>Mr. Satish Kumar Chaudhary, Director:</p> With 60 years of Work Experience, out of which 30 years as an entrepreneur in manufacturing various industrial chemicals and allied products, Mr. Chaudhary at Astha Ferrotech Pvt Ltd has been exclusively looking after Finance & Accounts, including Banking. In addition to that, he is also looking after the company matters in connection with R.O.C, Factory Inspector, Provident Fund, E.S.I. and Pollution Control.</p>
                         </div>
                     )
-            default: 
-                return("hello")
         }
     }
 
     /* render is called to paint the dom */
     render = () => {
         return(
-            <div className="management-container">
-                <div className="body">
+            <div className="management-container ">
+                <div className="body max-width-container">
                     <h2>Our Management</h2>
                     <div className="button-container" onClick={(e) => {
                         console.log(e.target.id)

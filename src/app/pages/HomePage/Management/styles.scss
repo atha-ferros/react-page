@@ -10,13 +10,14 @@
     .body{
         position: absolute;
         top: 50%;
+        left: 50%;
         width: 100%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
         text-align: center;
         .button-container{
             display: flex;
-            width: 35%;
+            width: 50%;
             margin: 0px auto;
             justify-content: space-between;
             .button{
@@ -35,7 +36,7 @@
             }
         }
         .single-div{
-            width: 50%;
+            width: 82%;
             margin: 100px auto;
             p{
                 font-size: 20px;
@@ -54,7 +55,7 @@
             }
         }
         .double-div{
-            width: 80%;
+            width: 100%;
             margin: 100px auto;
             display: flex;
             justify-content: space-between;
