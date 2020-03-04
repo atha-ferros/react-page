@@ -24,6 +24,12 @@ $smallDesktopWidth: 1440;
   }
 }
 
+@mixin tablet {
+  @media (min-width: 1024px) and (max-width: 1365px){
+    @content;
+  }
+}
+
 @mixin desktop {
   @media (min-width: $desktopWidth+px) {
     @content;

@@ -13,13 +13,11 @@
         text-align: left;
         padding: 10%;
         h2{
-            font-size: 60px;
             // width:60%;
             margin: 0px auto 80px;
             
         }
         p{
-            font-size: 20px;
             // width:50%;
             margin: auto;
             font-weight: normal;
@@ -37,6 +35,9 @@
         text-align: right;
         width: 50%;
         height: 70%;
+        @include tablet{
+            height: 50%;
+        }
     }
     // .right-section{
     //     flex:1;

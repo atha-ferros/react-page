@@ -5,8 +5,10 @@
     min-height: 100vh;
     width: 100vw;
     // padding: 70px 50px;
+    @include tablet{
+        padding: 10px 20px;
+    }
     .img{
-        flex: 1;
         margin-top: 100px;
         text-align: left;
         display: inline-block;
@@ -16,17 +18,17 @@
         background-color: white;
     }
     .content{
-        flex: 2;
         text-align: left;
         display: inline-block;
         width: 47%;
+        @include tablet{
+            width: 45%;
+        }
         .designation{
             margin: 70px 0px;
-            font-size: 20px;
             text-transform: uppercase;
         }
         .message{
-            font-size: 20px;
         }
     }
 }

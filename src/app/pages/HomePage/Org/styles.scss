@@ -4,8 +4,13 @@
     width: 100vw;
     min-height: 100vh;
     text-align: center;margin-bottom: 86px;
-    h2{
-        margin-top: 50px;
-        margin-bottom: 125px;
+    img{
+        @include tablet{
+
+            width: 90%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 }
