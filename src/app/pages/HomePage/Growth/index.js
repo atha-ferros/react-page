@@ -7,7 +7,7 @@ import Images from '../../../assets/images/images'
 const content = [
     {
         label: 'History',
-        content: 'The project was initiated on January 1, 2003 to set up a small-scale industry at Adityapur Industrial Area, Jamshedpur for manufacturing a wide range of Ferro alloys to cater to the needs of steel plants all over the country. Jamshedpur for manufacturing a wide range of Ferro alloys to cater to the needs of steel plants.'
+        content: 'Astha Ferrotech Pvt Ltd is a professionally managed organization that has raised itself to a higher pedestal with its quality products and has been recognized as a leading manufacturer of Ferro Alloys. Inspired by a few officers in Tata Steel, the project had been initiated on the 1st of January, 2003 to set up a small-scale industry at Adityapur Industrial Area, Jamshedpur for manufacturing a wide range of Ferro Alloys through Alumino-Thermit route to cater the needs of steel plants in general. The constitution of Astha Ferrotech was partnership, which has been functioning as a Private Limited Company since 1st April, 2005 under the leadership of the Managing Director, Mr. Tarun K Bhattacherjee. The well organized team of technically qualified and experienced personnel as well as a competent batch of non-technical enthusiasts are sweating every day to keep the graph moving towards the peak.'
     }, {
         label: 'future plans',
         content: ''

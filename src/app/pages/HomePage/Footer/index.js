@@ -63,11 +63,11 @@ export default class Footer extends React.Component {
                         <p>gallery</p>
                         <p>conatct us</p>
                     </div>
-                    <div className="menu-right">
+                    {/* <div className="menu-right">
                         <p>Careers</p>
                         <p>Press</p>
                         <p>Privacy Policy</p>
-                    </div>
+                    </div> */}
                     <p className="footer">2020 Astha Ferrotech Pvt. Ltd.<br/>
 All Rights Reserved.</p>
                 </div>

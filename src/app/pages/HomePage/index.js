@@ -9,6 +9,7 @@ import Products from './Products'
 import Org from './Org'
 import Client from './Client'
 import Footer from './Footer'
+import Management from './Management'
 
 export default class HomePage extends React.Component {
 
@@ -57,11 +58,12 @@ export default class HomePage extends React.Component {
                 <Section1/>
                 <About/>
                 <Growth/>
+                <Management/>
                 <MDSpeaks/>
                 <Overview/>
                 <Products/>
-                <Org/>
                 <Client/>
+                <Org/>
                 <Footer/>
             </div>
         )
