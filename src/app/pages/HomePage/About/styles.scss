@@ -1,11 +1,12 @@
 @import '../../../assets/scss/global.scss';
 
-.section2-container{
+.about-container{
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
     .left-section{
         flex:1;
         text-align: left;
