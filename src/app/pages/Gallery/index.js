@@ -1,17 +1,9 @@
 import React from 'react'
+import Heading from './Heading'
+import Content from './Content'
 import './styles.scss'
-import Section1 from './Section1'
-import About from './About'
-import Growth from './Growth'
-import MDSpeaks from './MDSpeaks'
-import Overview from './Overview'
-import Products from './Products'
-import Org from './Org'
-import Client from './Client'
-import Footer from '../Footer'
-import Management from './Management'
 
-export default class HomePage extends React.Component {
+export default class Gallery extends React.Component {
 
     constructor(props){
         super(props)
@@ -54,16 +46,9 @@ export default class HomePage extends React.Component {
     /* render is called to paint the dom */
     render = () => {
         return(
-            <div className="home-page-container">
-                <Section1/>
-                <About/>
-                <Growth/>
-                <Management/>
-                <MDSpeaks/>
-                <Overview/>
-                <Products/>
-                <Client/>
-                <Org/>
+            <div className="initiative-container">
+                <Heading/>
+                <Content/>
             </div>
         )
     }

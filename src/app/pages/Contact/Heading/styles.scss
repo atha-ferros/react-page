@@ -1,0 +1,17 @@
+@import '../../../assets/scss/global.scss';
+
+.heading-container{
+    width: 100vw;
+    height: 564px;
+    position: relative;
+    background-color: black;
+    text-align: center;
+    h1{
+        position: absolute;
+        top: 50%;
+        transform: translateY(50%);
+        text-transform: uppercase;
+        margin: auto;
+        width: 100%;
+    }
+}

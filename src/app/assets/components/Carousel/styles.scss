@@ -1,0 +1,65 @@
+@import '../../scss/global.scss';
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+div{
+	position: absolute;
+	height: 100px;
+	width: 492px;
+	margin: auto;
+	top:0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 4px;
+	border: 2px dotted #000;
+}
+
+box{
+	position:absolute;
+	height:100px;
+	width:100px;
+	left: 200px;
+	color: #ffffff;
+	font-weight: bold;
+	background: #FF2200;
+	transition: all 1s ease-out;
+	text-align: center;
+}
+
+.previous_box{
+	left: 0;
+	//AQUI
+	opacity: 0;
+}
+
+.current_box{
+	left: 200px;
+	background:#5500FF;
+	//AQUI
+	opacity: 1;
+}
+
+.next_box{
+	left: 400px;
+	background:#00FF55;
+	//E AQUI
+	opacity: 0;
+}
+
+button{
+	position: absolute;
+	height: 24px;
+	width: 132px;
+	top:0;
+	bottom:0;
+	margin: auto;
+}
+
+#go{
+	left:200px;	
+}
+
+#back{
+	right:200px;
+}

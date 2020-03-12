@@ -1,0 +1,22 @@
+@import '../../../assets/scss/global.scss';
+
+.content-container{
+    width: 100vw;
+    padding: 180px 20px;
+    .address{
+        padding-left: 100px;
+        box-sizing: border-box;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lower-contact{
+        text-align: center;
+    }
+    .black{
+        color: #212121;
+        font-weight: normal;
+    }
+}
