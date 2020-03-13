@@ -3,9 +3,34 @@
 .content-container{
     width: 100vw;
     padding: 180px 20px;
+    .map{
+        height: 500px;
+        width: 50%;
+        @include mobile{
+            height: 500px;
+            width: 1200px;
+        }
+    }
+    h5{
+        @include mobile{
+            font-size: 30px;
+            line-height: 1.5;
+        }
+    }
     .address{
         padding-left: 100px;
         box-sizing: border-box;
+        @include mobile{
+            text-align: left;
+            p{
+                font-size: 30px;
+                line-height: 1.5;
+            }
+            
+        }
+        p{
+
+        }
     }
     .flex{
         display: flex;

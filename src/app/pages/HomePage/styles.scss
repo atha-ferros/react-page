@@ -16,11 +16,17 @@
         @include tablet{
             font-size: 42px !important;
         }
+        @include mobile{
+            font-size: 70px;
+        }
     }
     p{
         font-size: 20px;
         @include tablet{
             font-size: 16px;
+        }
+        @include mobile{  
+            font-size: 40px;
         }
     }
 }  

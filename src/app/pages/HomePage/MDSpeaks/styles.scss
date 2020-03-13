@@ -16,6 +16,10 @@
         text-align: left;
         vertical-align: text-bottom;
         background-color: white;
+        @include mobile{
+            text-align: center;
+            width: 100%;
+        }
     }
     .content{
         text-align: left;
@@ -24,11 +28,22 @@
         @include tablet{
             width: 45%;
         }
+        @include mobile{
+            width: 100%;
+            text-align: center;
+            padding: 20px 60px;
+        }
         .designation{
             margin: 70px 0px;
             text-transform: uppercase;
+            @include mobile{
+                line-height: normal;
+            }
         }
         .message{
+            @include mobile{
+                line-height: normal;
+            }
         }
     }
 }

@@ -10,6 +10,18 @@
     justify-content: space-between;
     background-color: #00000060;
     z-index: 1;
+    .tile{
+        width: 100px;
+        height: 10px;
+        border-radius: 2px;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+    @include mobile{
+        position: absolute;
+        background-color: #00000000;
+        // height: 120px;
+    }
     .logo-section{
         height: 100%;
         .logo{
@@ -19,6 +31,10 @@
             @include tablet{
                 margin: 20px 0px 0px 70px;
                 // height: 50%;
+            }
+            @include mobile{
+                margin: 40px 0px 0px 70px;
+                height: 200%;
             }
         }
         h5{
@@ -31,10 +47,16 @@
                 margin-top: 45px;
                 font-size: 20px;
             }
+            @include mobile{
+                display: none;
+            }
         }
     }
     .navbar{
         display: flex;
+        @include mobile{
+            display: none;
+        }
         a {
             padding: 50px 70px 30px;
             text-transform: uppercase;
@@ -47,6 +69,47 @@
         .active{
             border-bottom: 5px solid #e72020;
             font-weight: bolder;
+        }
+    }
+    .hamburger-menu{
+        display: none;
+        @include mobile{
+            display: unset;
+            margin: 90px 30px;
+        }
+    }
+    .menu{
+        display: none;
+        animation: slide-in-left;
+        animation-duration: 1s;
+    }
+    .menu.active{
+        display: unset;
+        animation: slide-in-right;
+        animation-duration: 0.5s;
+        position: fixed;
+        height: 100vh;
+        right: 0px;
+        top: 0px;
+        width: 50vw;
+        background-color: #212121;
+        padding: 80px 40px ;
+        .close{
+            margin-left: 75% ;
+            margin-bottom: 150px;
+            .tile1{
+                transform: rotate(225deg);
+            }
+            .tile2{
+                transform: rotate(-225deg) translate(-20px,14px);
+            }
+        }
+        a{
+            width: 100%;
+            font-size: 40px;
+            margin-bottom: 100px;
+            display: block;
+            color: white;
         }
     }
 }

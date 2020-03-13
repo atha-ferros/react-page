@@ -6,6 +6,9 @@
     position: relative;
     background-color: black;
     text-align: center;
+    @include mobile{
+        height: 100vh;
+    }
     h1{
         position: absolute;
         top: 50%;

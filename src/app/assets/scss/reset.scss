@@ -886,3 +886,16 @@ h5{
     text-transform: uppercase;
     color: red;
 }
+
+
+.mobile{
+    display: none;
+    @include mobile{
+        display: unset;
+    }
+}
+.not-mobile{
+    @include mobile{
+        display: none;
+    }
+}

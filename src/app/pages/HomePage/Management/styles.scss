@@ -7,6 +7,9 @@
     width: 100vw;
     text-align: center;
     position: relative;
+    @include mobile{
+        height: auto;
+    }
     .body{
         position: absolute;
         top: 50%;
@@ -15,17 +18,33 @@
         -ms-transform: translate(-50%,-50%);
         transform: translate(-50%,-50%);
         text-align: center;
+        @include mobile{
+            position: relative;
+            top:0;
+            left: 0;
+            -ms-transform: none;
+            transform: none;
+            padding: 100px 0px;
+        }
         .button-container{
             display: flex;
             width: 50%;
             margin: 0px auto;
             justify-content: space-between;
+            @include mobile{
+                width: 80%;
+                font-size: 30px;
+                line-height: normal;
+            }
             .button{
                 max-width: unset;
                 text-transform: uppercase;
                 background: transparent;
                 border: 1px solid;
                 cursor: pointer;
+                @include mobile{
+                    width: 80%;
+                }
             }
             .active-button{
                 max-width: unset;
@@ -33,6 +52,9 @@
                 background-color: #e72020;
                 border: none;
                 color: white;
+                @include mobile{
+                    width: 80%;
+                }
             }
         }
         .single-div{
@@ -58,6 +80,10 @@
             margin: 100px auto;
             display: flex;
             justify-content: space-between;
+            @include mobile{
+                display: block;
+                width: 100%;
+            }
             p{
                 font-weight: normal;
                 font-stretch: normal;
@@ -67,6 +93,10 @@
                 text-align: center;
                 color: #5d5d5d;
                 width: 45%;
+                @include mobile{
+                    width: 100%;
+                    padding: 50px;
+                }
                 p{
                     font-weight: bold;
                     color: #e72020;

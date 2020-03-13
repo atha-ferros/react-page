@@ -46,12 +46,13 @@ export default class Section2 extends React.Component {
     render = () => {
         return(
             <div className="about-container">
+                <img src={Images.about} className="top mobile"/>
                 <div className="left-section">
                     <h2>ABOUT US</h2>
                     <p>Astha Ferrotech Pvt Ltd is a professionally managed organization that has been recognized as a leading manufacturer of Low Carbon & Medium Carbon Ferro Alloys including Noble Alloys.</p>
                 </div>
 
-                    <img src={Images.about}/>
+                <img src={Images.about} className="right not-mobile"/>
                 <div className="right-section">
 
                 </div>

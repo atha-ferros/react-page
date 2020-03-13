@@ -8,6 +8,11 @@
     @include tablet{
         padding: 100px 50px;
     }
+    @include mobile{
+        height: auto;
+        display: block;
+        text-align: center;
+    }
     .content{
         flex:2;
         // margin: 15% auto;
@@ -18,9 +23,18 @@
         p{
             width: 70%;
             color: #5d5d5d;
+            @include mobile{
+                width: 100%;
+                line-height: normal;
+                margin-bottom: 100px;
+            }
         }
     }
     img{
         flex: 1;
+        @include mobile{
+            // display: none;
+            width: 100%;
+        }
     }
 }

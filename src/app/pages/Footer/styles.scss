@@ -7,7 +7,12 @@
     background-color: black;
     // display: flex;
     // justify-content: space-between;
+    height: 85vh;
     position: relative;
+    @include mobile{
+        padding: 20px;
+        height: 60vh;
+    }
     .inline{
         display: inline-block;
         vertical-align: top;
@@ -20,15 +25,24 @@
         margin-bottom: 60px;
         margin-top: 20px;
         width: 100%;
+        @include mobile{
+            font-size: 50px;
+        }
     }
     .left{
         // flex:1;
         display: inline-block;
         width: 80%;
-        
+        position: relative;
+        height: 100%;
+        @include mobile{
+            width: 65%;
+            height: 100%;
+        }
         @include tablet{
             width: 70%;
             font-size: 18px;
+            height: 100%;
         }
         p{
             color:#959595;
@@ -45,10 +59,24 @@
             @include tablet{
                 font-size: 18px;
             }
+            
+            @include mobile{
+                font-size: 30px;
+            }
+        }
+        .company-detail{
+            position: absolute;
+            bottom: 0px;
+            @include mobile{
+                position: absolute;
+                bottom: 220px;
+            }
         }
     }
     .right{
         // flex:1;
+        height: 100%;
+        position: relative;
         width: 20%;
         vertical-align: top;
         display: inline-block;
@@ -59,6 +87,11 @@
         @include tablet{
             width: 30%;
             font-size: 18px;
+        }
+        
+        @include mobile{
+            width: 35%;
+            font-size: 30px;
         }
         .menu-left{
             display: inline-block;
@@ -76,6 +109,27 @@
         }
         p{
             margin: 20px;
+        }
+        a{
+            @include mobile{
+                margin-bottom: 40px;
+            }
+            display: block;
+            margin-bottom: 20px;
+            color: #dfdfdf;
+        }
+        img{
+            position: absolute;
+            bottom: 0px;
+            @include tablet{
+
+                bottom: 20px;
+            }
+            @include mobile{
+
+                bottom: 220px;
+                right: 100px;
+            }
         }
         
     }

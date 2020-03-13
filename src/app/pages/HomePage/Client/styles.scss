@@ -8,15 +8,34 @@
     justify-content: space-between;
     background-color: #dfdfdf;
     padding: 200px 20%;
+    @include mobile{
+        display: block;
+        padding: 200px 50px;
+    }
     img{
-
+        @include mobile{
+            width: 100%;
+        }
     }
     .right{
         width: 50%;
         text-align: left;
         padding-top: 5%;
+        @include mobile{
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
         h2{
             margin-bottom: 50px;
+        }
+        p{
+
+            @include mobile{
+                // width: 100%;
+                text-align: center;
+                line-height: normal;
+            }
         }
     }
 }

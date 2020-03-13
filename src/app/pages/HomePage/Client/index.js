@@ -46,7 +46,8 @@ export default class Client extends React.Component {
     render = () => {
         return(
             <div className="client-container">
-                <img src={images.client} />
+                <img src={images.client} className="not-mobile"/>
+                <img src={images.logos_mobile} className="mobile"/>
                 <div className="right">
                     <h2>Clientele</h2>
                     <p>During its 16-year journey, the company catered to an impressive clientele with likes of Tata Steel Ltd, Usha Martin Ltd (now taken over by Tata Steel Long Products Ltd), Jindal Steel & Power Ltd, SAIL’s Bhilai Steel Plant, Bokaro Steel Plant, Alloy Steel Plant, Bhushan Power & Steel Ltd, Tata Steel BSL Ltd (Meramandli) and many more, all over India.</p>

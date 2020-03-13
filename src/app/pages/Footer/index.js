@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.scss'
 import Images from '../../assets/images/images'
+import {Link} from 'react-router-dom'
 
 export default class Footer extends React.Component {
 
@@ -59,15 +60,15 @@ export default class Footer extends React.Component {
                         {/* FAX: 06572200106<br/>
                         OFFICE CELL: +91 9304021627</p> */}
                         <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                        <p>2020 Astha Ferrotech Pvt. Ltd.<br/>
+                        <p className="company-detail">2020 Astha Ferrotech Pvt. Ltd.<br/>
 All Rights Reserved.</p>    
                 </div>
                 <div className="right">
                     <div className="menu-left">
-                        <p>home</p>
-                        <p>our initiatives</p>
-                        <p>gallery</p>
-                        <p>conatct us</p>
+                        <Link to="">home</Link>
+                        <Link to="/initiative">our initiatives</Link>
+                        <Link to="/gallery">gallery</Link>
+                        <Link to="/contact">conatct us</Link>
                     </div>
                     
                     <br/><br/><br/><br/><br/><br/><br/>

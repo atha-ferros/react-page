@@ -8,7 +8,7 @@ import product from './product.jpg'
 import md from './md.png'
 import org from './org.png'
 import client from './client.png'
-
+import logos_mobile from './logos-mobile.png'
 import logo from './astha-logo.png'
 import gallery from './Gallery.png'
 import initiative from './OurInitiative.png'
@@ -29,4 +29,5 @@ export default {
     gallery,
     initiative,
     contact,
+    logos_mobile
 }

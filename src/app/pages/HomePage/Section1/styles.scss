@@ -17,5 +17,8 @@
         letter-spacing: 0.7px;
         text-transform: uppercase;
         color: #ffffff;
+        // @include mobile{
+        //     font-size: 25px;
+        // }
     }
 }

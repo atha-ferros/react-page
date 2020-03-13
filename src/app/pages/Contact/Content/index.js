@@ -64,7 +64,7 @@ export default class Content extends React.Component {
         return(
             <div className="content-container max-width-container">
                 <div className="flex">
-                    <div style={{ height: '500px', width: '50%' }}>
+                    <div className="map">
                         <GoogleMapReact
                         bootstrapURLKeys={{ key: 'AIzaSyD385Il76hgVlOJHxnqHT5J8-YyUkmGR_g'}}
                         defaultCenter={this.props.center}
