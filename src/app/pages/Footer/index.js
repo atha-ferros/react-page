@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.scss'
+import Images from '../../assets/images/images'
 
 export default class Footer extends React.Component {
 
@@ -45,16 +46,21 @@ export default class Footer extends React.Component {
     render = () => {
         return(
             <div className="footer">
+                <h2>Contact US</h2>
                 <div className="left">
-                    <h2>Contact US</h2>
                     <p className="inline">Address: </p>
                     <p className="inline">Astha Ferrotech Pvt Ltd, <br/>
                         B-2, near industrial estate,<br/>
                         Adityapur Industrial Area,<br/>
                         Adityapur, Jamshedpur - 832109</p>
-                    <p>PHONE NO.: 0657-2200141/2200731<br/>
-                        FAX: 06572200106<br/>
-                        OFFICE CELL: +91 9304021627</p>
+                    <p>Phone No..: 0657-2200141/2200731<br/>
+                        Fax: 06572200106<br/>
+                        Office Cell: +91 9304021627<br/></p>
+                        {/* FAX: 06572200106<br/>
+                        OFFICE CELL: +91 9304021627</p> */}
+                        <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                        <p>2020 Astha Ferrotech Pvt. Ltd.<br/>
+All Rights Reserved.</p>    
                 </div>
                 <div className="right">
                     <div className="menu-left">
@@ -63,13 +69,16 @@ export default class Footer extends React.Component {
                         <p>gallery</p>
                         <p>conatct us</p>
                     </div>
+                    
+                    <br/><br/><br/><br/><br/><br/><br/>
+                    <img src={Images.logo}/>
                     {/* <div className="menu-right">
                         <p>Careers</p>
                         <p>Press</p>
                         <p>Privacy Policy</p>
                     </div> */}
-                    <p className="footer">2020 Astha Ferrotech Pvt. Ltd.<br/>
-All Rights Reserved.</p>
+                    {/* <p className="footer">2020 Astha Ferrotech Pvt. Ltd.<br/>
+All Rights Reserved.</p> */}
                 </div>
             </div>
         )

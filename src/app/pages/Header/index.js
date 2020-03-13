@@ -1,5 +1,7 @@
 import React from 'react'
 import './styles.scss'
+import Images from '../../assets/images/images'
+import { Link } from 'react-router-dom'
 
 export default class Header extends React.Component {
 
@@ -45,7 +47,16 @@ export default class Header extends React.Component {
     render = () => {
         return(
             <div className="header-container">
-                
+                <div className="logo-section">
+                    <img src={Images.logo} className="logo"/>
+                    <h5>ASTHA FERROTECH</h5>
+                </div>
+                <div className="navbar">
+                    <Link  to="/">Home</Link>
+                    <Link className={`${location.pathname.includes('initiative')? 'active': ''}`} to="/initiative">Our Initiative</Link>
+                    <Link className={`${location.pathname.includes('gallery')? 'active': ''}`} to="/gallery">Gallery</Link>
+                    <Link className={`${location.pathname.includes('contact')? 'active': ''}`} to="/contact">Contact Us</Link>
+                </div>
             </div>
         )
     }

@@ -9,6 +9,11 @@ import md from './md.png'
 import org from './org.png'
 import client from './client.png'
 
+import logo from './astha-logo.png'
+import gallery from './Gallery.png'
+import initiative from './OurInitiative.png'
+import contact from './Contact-us.png'
+
 export default {
     section1_bg,
     about,
@@ -19,5 +24,9 @@ export default {
     product,
     md,
     org,
-    client
+    client,
+    logo,
+    gallery,
+    initiative,
+    contact,
 }
