@@ -12,7 +12,7 @@
     .banner{
         width:100%;
         @include mobile{
-            height: 400px;
+            height: 200px;
         }
     }
     h2{
@@ -34,7 +34,8 @@
             padding: 0px 20px;
         }
         @include mobile{
-            padding: 100px 150px;
+            padding: 20px;
+            text-align: center;
         }
     }
 }

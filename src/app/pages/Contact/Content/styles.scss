@@ -7,23 +7,23 @@
         height: 500px;
         width: 50%;
         @include mobile{
-            height: 500px;
-            width: 1200px;
+            height: 200px;
+            width: 500px;
         }
     }
     h5{
         @include mobile{
-            font-size: 30px;
+            font-size: 13px;
             line-height: 1.5;
         }
     }
     .address{
-        padding-left: 100px;
+        padding-left: 10px;
         box-sizing: border-box;
         @include mobile{
             text-align: left;
             p{
-                font-size: 30px;
+                font-size: 13px;
                 line-height: 1.5;
             }
             
@@ -35,7 +35,7 @@
     .flex{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: top;
     }
     .lower-contact{
         text-align: center;

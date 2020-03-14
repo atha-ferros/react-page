@@ -43,16 +43,19 @@ export default class Header extends React.Component {
 
     }
 
-    toggleMenu = () => {
-        console.log("hello")
-        let el = document.getElementById("menu")
-        el.classList.toggle('active')
+    toggleMenu = (e) => {
+        let className = e.target.className
+        console.log("hello", e.target.className)
+        if(className.includes('link') || className.includes('close') || className.includes('tile') || className.includes('hamburger-menu')){
+            let el = document.getElementById("menu")
+            el.classList.toggle('active')
+        }
     }
 
     /* render is called to paint the dom */
     render = () => {
         return(
-            <div className="header-container">
+            <div className="header-container" onClick={this.toggleMenu}>
                 <div className="logo-section">
                     <img src={Images.logo} className="logo"/>
                     <h5>ASTHA FERROTECH</h5>
@@ -63,20 +66,20 @@ export default class Header extends React.Component {
                     <Link className={`${location.pathname.includes('gallery')? 'active': ''}`} to="/gallery">Gallery</Link>
                     <Link className={`${location.pathname.includes('contact')? 'active': ''}`} to="/contact">Contact Us</Link>
                 </div>
-                <div className="hamburger-menu" onClick={this.toggleMenu}>
+                <div className="hamburger-menu" >
                     <div className="tile"></div>
                     <div className="tile"></div>
                     <div className="tile"></div>
                 </div>
-                <div id="menu" className="menu" onBlur={this.toggleMenu}>
-                    <div className="close" onClick={this.toggleMenu}>
+                <div id="menu" className="menu">
+                    <div className="close">
                         <div className="tile tile1"></div>
                         <div className="tile tile2"></div>
                     </div>
-                    <Link  onClick={this.toggleMenu} to="/">Home</Link>
-                    <Link  onClick={this.toggleMenu} className={`${location.pathname.includes('initiative')? 'active': ''}`} to="/initiative">Our Initiative</Link>
-                    <Link  onClick={this.toggleMenu} className={`${location.pathname.includes('gallery')? 'active': ''}`} to="/gallery">Gallery</Link>
-                    <Link  onClick={this.toggleMenu} className={`${location.pathname.includes('contact')? 'active': ''}`} to="/contact">Contact Us</Link>
+                    <Link className="link" to="/">Home</Link>
+                    <Link className={`link ${location.pathname.includes('initiative')? 'active': ''}`} to="/initiative">Our Initiative</Link>
+                    <Link className={`link ${location.pathname.includes('gallery')? 'active': ''}`} to="/gallery">Gallery</Link>
+                    <Link className={`link ${location.pathname.includes('contact')? 'active': ''}`} to="/contact">Contact Us</Link>
                 </div>
             </div>
         )

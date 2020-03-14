@@ -60,7 +60,10 @@ export default class Footer extends React.Component {
                         {/* FAX: 06572200106<br/>
                         OFFICE CELL: +91 9304021627</p> */}
                         <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                        <p className="company-detail">2020 Astha Ferrotech Pvt. Ltd.<br/>
+                        <p className="company-detail">
+                            
+                    <img src={Images.logo}/><br/>
+                    2020 Astha Ferrotech Pvt. Ltd.<br/>
 All Rights Reserved.</p>    
                 </div>
                 <div className="right">

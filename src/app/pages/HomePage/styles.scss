@@ -1,13 +1,10 @@
 @import '../../assets/scss/global.scss';
 
 .home-page-container{
-    p{
-        font-size: 20px;
-    }
     h1{
         font-size: 70px;
         @include tablet{
-            font-size: 60px;
+            font-size: 25px;
         }
     }
     h2{
@@ -17,7 +14,7 @@
             font-size: 42px !important;
         }
         @include mobile{
-            font-size: 70px;
+            font-size: 25px;
         }
     }
     p{
@@ -26,7 +23,7 @@
             font-size: 16px;
         }
         @include mobile{  
-            font-size: 40px;
+            font-size: 13px;
         }
     }
 }  

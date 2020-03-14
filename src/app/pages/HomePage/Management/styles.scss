@@ -33,7 +33,7 @@
             justify-content: space-between;
             @include mobile{
                 width: 80%;
-                font-size: 30px;
+                font-size: 13px;
                 line-height: normal;
             }
             .button{
@@ -43,7 +43,8 @@
                 border: 1px solid;
                 cursor: pointer;
                 @include mobile{
-                    width: 80%;
+                    width: 45%;
+                    padding: 20px 0px;
                 }
             }
             .active-button{
@@ -53,7 +54,9 @@
                 border: none;
                 color: white;
                 @include mobile{
-                    width: 80%;
+                    width: 45%;
+                    padding: 20px 0px;
+                    // width: 80%;
                 }
             }
         }
