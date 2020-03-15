@@ -17,6 +17,9 @@
     }
     h2{
         margin-bottom: 70px;
+        @include mobile{
+            margin: 50px 0px;
+        }
     }
     p{
         // width: 70%;

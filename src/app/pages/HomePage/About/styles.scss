@@ -9,9 +9,10 @@
     justify-content: center;
     overflow-x: hidden;
     @include mobile{
+        height: auto;
         display: block;
         text-align: center;
-        margin-top: 200px;
+        margin: 100px 0px;
     }
     .left-section{
         flex:1;
@@ -19,7 +20,7 @@
         padding: 10%;
         h2{
             // width:60%;
-            margin: 0px auto 80px;
+            margin: 0px auto 50px;
             
         }
         p{

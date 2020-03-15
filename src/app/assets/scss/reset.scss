@@ -896,6 +896,6 @@ h5{
 }
 .not-mobile{
     @include mobile{
-        display: none;
+        display: none !important;
     }
 }

@@ -1,6 +1,33 @@
 import React from 'react'
 import './styles.scss'
 import images from '../../../assets/images/images'
+import Carousel from '../../../assets/components/Carousel'
+import { ArrowLeft, ArrowRight } from 'react-feather'
+
+const SLIDE_INFO = [
+    {
+        img: 'vision',
+        label: 'Vision',
+        description: 'Astha Ferrotech Pvt Ltd aspires to be a leading manufacturer of Ferro Alloys in India. We endeavour to deliver quality products which will help the company to withstand the test of competition. Good quality Ferro Alloys leads to making the Best Steel for a better future infrastructure. '
+    }, {
+        img: 'mission',
+        label: 'Mission',
+        description: 'Astha Ferrotech Pvt Ltd aspires to be a leading manufacturer of Ferro Alloys in India. We endeavour to deliver quality products which will help the company to withstand the test of competition. Good quality Ferro Alloys leads to making the Best Steel for a better future infrastructure. ' 
+    }, {
+        img: 'core',
+        label: 'Core Values',
+        description: 'Astha Ferrotech Pvt Ltd aspires to be a leading manufacturer of Ferro Alloys in India. We endeavour to deliver quality products which will help the company to withstand the test of competition. Good quality Ferro Alloys leads to making the Best Steel for a better future infrastructure. '
+    }
+]
+
+const Slide = (props) => <div className="img">
+    <img src={images[props.img]}/>
+    <div className="content">
+        <p className="header">{props.label}</p>
+        <div className="hr"></div>
+        <p className="body">{props.description}</p>
+    </div>
+</div>
 
 export default class Overview extends React.Component {
 
@@ -44,40 +71,14 @@ export default class Overview extends React.Component {
 
     /* render is called to paint the dom */
     render = () => {
+        let slides = SLIDE_INFO.map(slide => <Slide {...slide}/>)
+        console.log(slides)
         return(
             <div className="overview-container">
                 <h2>Overview</h2>
                 <hr size="2"/>
-                <div className="image-container">
-                    <div className="img">
-                        <img src={images.vision}/>
-                        <div className="content">
-                            <p className="header">Vision</p>
-                            <div className="hr"></div>
-                            <p className="body">Astha Ferrotech Pvt Ltd aspires to be a leading manufacturer of Ferro Alloys in India. We endeavour to deliver quality products which will help the company to withstand the test of competition. Good quality Ferro Alloys leads to making the Best Steel for a better future infrastructure. </p>
-                        </div>
-                    </div>
-                    <div className="img">
-                        <img src={images.mission}/>               
-                        
-                        <div className="content">
-                            <p className="header">Mision</p>
-                            <div className="hr"></div>
-                            <p className="body">Astha Ferrotech Pvt Ltd aspires to be a leading manufacturer of Ferro Alloys in India. We endeavour to deliver quality products which will help the company to withstand the test of competition. Good quality Ferro Alloys leads to making the Best Steel for a better future infrastructure. </p>
-                        </div>
-                        
-                    </div>
-                    <div className="img">
-                        <img src={images.core}/>
-                        
-                        <div className="content">
-                            <p className="header">Core Values</p>
-                            <div className="hr"></div>
-                            <p className="body">Astha Ferrotech Pvt Ltd aspires to be a leading manufacturer of Ferro Alloys in India. We endeavour to deliver quality products which will help the company to withstand the test of competition. Good quality Ferro Alloys leads to making the Best Steel for a better future infrastructure. </p>
-                        </div>
-                        
-                    </div>
-                </div>
+                <div className=" not-mobile image-container">{ slides } </div>
+                <div className="mobile"> <Carousel slides={ slides} prev_button={<ArrowLeft color='#212121'/>} next_button={<ArrowRight color='#212121'/>} loop/> </div>
             </div>
         )
     }

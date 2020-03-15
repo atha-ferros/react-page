@@ -63,4 +63,51 @@
         }
         
     }
+    .mobile{
+        .img{
+            flex: 1;
+            position: relative;
+            img{
+                width: 100%;
+                height: 80vh;
+                
+            }
+            .content{
+                position: absolute;
+                bottom: 50px;
+                text-align: center;
+                display: absolute;
+                bottom: 0px;
+                width: 100%;
+                height: 100%;
+                background-color:#00000099;
+                overflow-y: hidden;
+                color: white;
+                text-align: center;
+                padding: 40px 20px;
+                .header{
+                    font-size: 25px;
+                    text-transform: uppercase;
+                    font-weight: 800;
+                }
+                .hr{
+                    width: 50%;
+                    height: 2px;
+                    margin: 50px auto;
+                    background-color: white;
+                }
+                .body{
+
+                }
+            }
+        }
+        .prev{
+            top: unset;
+            bottom: -50px;
+        }
+        .next{
+            top: unset;
+            bottom: -50px;
+        }
+    }
 }
