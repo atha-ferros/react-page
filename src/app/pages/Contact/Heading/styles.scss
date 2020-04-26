@@ -17,4 +17,10 @@
         margin: auto;
         width: 100%;
     }
+    img{
+        @include mobile{
+            
+            height: 100%;display: none;
+        }
+    }
 }

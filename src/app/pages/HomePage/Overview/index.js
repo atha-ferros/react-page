@@ -78,7 +78,8 @@ export default class Overview extends React.Component {
                 <h2>Overview</h2>
                 <hr size="2"/>
                 <div className=" not-mobile image-container">{ slides } </div>
-                <div className="mobile"> <Carousel slides={ slides} prev_button={<ArrowLeft color='#212121'/>} next_button={<ArrowRight color='#212121'/>} loop/> </div>
+                <div className="mobile"> 
+                <Carousel slides={ slides} prev_button={<ArrowLeft color='#212121'/>} next_button={<ArrowRight color='#212121'/>} loop/> </div>
             </div>
         )
     }

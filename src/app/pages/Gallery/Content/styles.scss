@@ -4,7 +4,62 @@
     width: 100vw;
     padding: 180px 20px;
     text-align: center;
+    @include mobile{
+        padding: 10px 20px 100px;
+        img{
+            // width: 100%;
+            height: 100%;
+        }
+    }
+
     h5{
         margin: 20px auto;
+    }
+    p{
+        margin: 150px auto;
+        font-size: 20px;
+        @include mobile{
+            margin: 100px auto;
+        }
+        .red{
+            color: #e72020;
+            font-weight: bold;
+        }
+    }
+    .slideshow-container{
+        margin-bottom: 100px;
+        max-width: 85%;
+        @include mobile{
+            max-width: unset;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .prev{
+        top: 105%;
+        left: 40px;
+        @include mobile{
+            left: 0px;
+        }
+        // @include mobile{
+        //     top: unset;
+        //     bottom: 0px;
+        //     left: 10px;
+        //     right: unset;
+        // }
+    }
+    .next{
+        top: 105%;
+        // bottom: 0px;
+        right: 50px;
+        @include mobile{
+            right: 0px;
+        }
+        // @include mobile{
+        //     top: unset;
+        //     right: 10px;
+        //     bottom: 0px;
+        // }
     }
 }

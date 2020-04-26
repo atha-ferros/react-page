@@ -1,5 +1,5 @@
 {
-  "name": "e-kom-ui",
+  "name": "react_page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/kodeiya/e-kom-ui.git"
+    "url": "git+ssh://git@gitlab.com/onyx2/react_page.git"
   },
   "author": "Vivek Jha",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/kodeiya/e-kom-ui/issues"
+    "url": "https://gitlab.com/onyx2/react_page/issues"
   },
   "homepage": "https://app.kodeiya.com",
   "dependencies": {
