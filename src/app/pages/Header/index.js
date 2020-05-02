@@ -58,11 +58,11 @@ export default class Header extends React.Component {
             <div className="header-container" onClick={this.toggleMenu}>
                 <div className="logo-section">
                     <img src={Images.logo} className="logo"/>
-                    <h5>ASTHA FERROTECH</h5>
+                    <h5>ASTHA FERROTECH PVT. LTD.</h5>
                 </div>
                 <div className="navbar">
                     <Link  to="/">Home</Link>
-                    <Link className={`${location.pathname.includes('initiative')? 'active': ''}`} to="/initiative">Our Initiative</Link>
+                    <Link className={`${location.pathname.includes('initiative')? 'active': ''}`} to="/initiative">Our Initiatives</Link>
                     <Link className={`${location.pathname.includes('gallery')? 'active': ''}`} to="/gallery">Gallery</Link>
                     <Link className={`${location.pathname.includes('contact')? 'active': ''}`} to="/contact">Contact Us</Link>
                 </div>
@@ -77,7 +77,7 @@ export default class Header extends React.Component {
                         <div className="tile tile2"></div>
                     </div>
                     <Link className="link" to="/">Home</Link>
-                    <Link className={`link ${location.pathname.includes('initiative')? 'active': ''}`} to="/initiative">Our Initiative</Link>
+                    <Link className={`link ${location.pathname.includes('initiative')? 'active': ''}`} to="/initiative">Our Initiatives</Link>
                     <Link className={`link ${location.pathname.includes('gallery')? 'active': ''}`} to="/gallery">Gallery</Link>
                     <Link className={`link ${location.pathname.includes('contact')? 'active': ''}`} to="/contact">Contact Us</Link>
                 </div>

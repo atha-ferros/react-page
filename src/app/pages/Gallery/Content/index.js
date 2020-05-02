@@ -10,11 +10,11 @@ const SlideContent = [
         description: 'Imagined to suit all, onyx mall is a one-stop choice when it comes to space, functionality & purpose.',
         img: Images.Gallery1
     },
-    {
-        heading: 'MAGNIFICIENT ENTRANCE',
-        description: 'Eqipped with automatic sensor gates, air-conditioned (HVAC), Hi-end interiors, escalators, automatic lifts.',
-        img: Images.Gallery2
-    },
+    // {
+    //     heading: 'MAGNIFICIENT ENTRANCE',
+    //     description: 'Eqipped with automatic sensor gates, air-conditioned (HVAC), Hi-end interiors, escalators, automatic lifts.',
+    //     img: Images.Gallery2
+    // },
     {
         heading: 'ANCHOR SHOWROOMS, SMALL & MEDIUM RETAIL SPACES',
         description: 'An option to customize your space accompanied by an exclusive designer lobby.',
