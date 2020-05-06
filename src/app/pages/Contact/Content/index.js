@@ -66,14 +66,14 @@ export default class Content extends React.Component {
                 <div className="flex">
                     <div className="map">
                         <GoogleMapReact
-                        bootstrapURLKeys={{ key: 'AIzaSyD385Il76hgVlOJHxnqHT5J8-YyUkmGR_g'}}
+                        bootstrapURLKeys={{ key: 'AIzaSyDMiyBdrQRinSOcQdmi3N2HeIFacM5laDU'}}
                         defaultCenter={this.props.center}
                         defaultZoom={this.props.zoom}
                         >
                         <AnyReactComponent
-                            lat={59.955413}
-                            lng={30.337844}
-                            text="My Marker"
+                            lat={86.1400489}
+                            lng={22.7890688}
+                            text="Astha Ferrotech"
                             />
                         </GoogleMapReact>
                     </div>

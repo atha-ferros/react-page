@@ -62,8 +62,8 @@ export default class Management extends React.Component {
             case DIRECTOR.BOARD_OF_DIRECTOR:
                     return(
                         <div className="double-div">
-                            <p><p>Mr. Tarun Kumar Adak, Director:</p>  With over 45 years in the field of personnel, hotel management, food marketing and involvement in trading business, Mr. Adak at Astha Ferrotech Pvt Ltd has been handling personnel, labour welfare, procurement of selected raw materials, liasioning with suppliers, general administration and logistics. An active member of the Lion’s Club, he’s into various philanthropic activities.</p>
-                            <p><p>Mr. Satish Kumar Chaudhary, Director:</p> With 60 years of Work Experience, out of which 30 years as an entrepreneur in manufacturing various industrial chemicals and allied products, Mr. Chaudhary at Astha Ferrotech Pvt Ltd has been exclusively looking after Finance & Accounts, including Banking. In addition to that, he is also looking after the company matters in connection with R.O.C, Factory Inspector, Provident Fund, E.S.I. and Pollution Control.</p>
+                            <p><p>Mr. Tarun Kumar Adak, Director:<br/></p>  With over 45 years in the field of personnel, hotel management, food marketing and involvement in trading business, Mr. Adak at Astha Ferrotech Pvt Ltd has been handling personnel, labour welfare, procurement of selected raw materials, liasioning with suppliers, general administration and logistics. An active member of the Lion’s Club, he’s into various philanthropic activities.</p>
+                            <p><p>Mr. Satish Kumar Chaudhary, Director:<br/></p> With 60 years of Work Experience, out of which 30 years as an entrepreneur in manufacturing various industrial chemicals and allied products, Mr. Chaudhary at Astha Ferrotech Pvt Ltd has been exclusively looking after Finance & Accounts, including Banking. In addition to that, he is also looking after the company matters in connection with R.O.C, Factory Inspector, Provident Fund, E.S.I. and Pollution Control.</p>
                         </div>
                     )
         }

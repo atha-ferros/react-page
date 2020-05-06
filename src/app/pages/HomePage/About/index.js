@@ -49,7 +49,7 @@ export default class Section2 extends React.Component {
                 <img src={Images.about} className="top mobile"/>
                 <div className="left-section">
                     <h2>ABOUT US</h2>
-                    <p>Astha Ferrotech Pvt Ltd is a professionally managed organization that has been recognized as a leading manufacturer of Low Carbon & Medium Carbon Ferro Alloys including Noble Alloys.</p>
+                    <p>Astha Ferrotech Pvt Ltd is a professionally managed organization that has raised itself to a higher pedestal with its quality products and has been recognized as a leading manufacturer of Low Carbon & Medium Carbon Ferro Alloys, including Noble Alloys.</p>
                 </div>
 
                 <img src={Images.about} className="right not-mobile"/>

@@ -71,6 +71,7 @@
                 letter-spacing: normal;
                 text-align: center;
                 color: #5d5d5d;
+                
                 p{
                     display: inline;
                     font-weight: bold;
@@ -104,7 +105,13 @@
                     font-weight: bold;
                     color: #e72020;
                     display: inline;
-                  }
+                    
+                    @include mobile{
+                        width: 100%;
+                        padding: 0px;
+                        // text-align: left;
+                    }
+                }
             }
         }
         .content{
