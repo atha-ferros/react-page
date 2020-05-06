@@ -79,8 +79,8 @@ export default class Content extends React.Component {
                     </div>
                     <div className="address">
                         <h5>ASTHA FERROTECH PVT LTD,</h5>
-                        <p>B-2, NEAR INDUSTRIAL ESTATE,
-                            ADITYAPUR INDUSTRIAL AREA,
+                        <p>B-2, NEAR INDUSTRIAL ESTATE,<br/>
+                            ADITYAPUR INDUSTRIAL AREA,<br/>
                             ADITYAPUR-832109.</p>
                     </div>
                 </div>
@@ -90,10 +90,10 @@ export default class Content extends React.Component {
                 <br/>
                 <br/>
                 <div className="flex lower-contact">
-                    <div>
+                    {/* <div>
                         <h5>FAX</h5><br/>
                         <h5 className="black">0657-2200106</h5>
-                    </div>
+                    </div> */}
                     <div>
                         <h5>PHONE NO.</h5><br/>
                         <h5 className="black">0657-2200141<br/>

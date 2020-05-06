@@ -8,7 +8,7 @@
         width: 50%;
         @include mobile{
             height: 200px;
-            width: 500px;
+            width: 90%;
         }
     }
     h5{
@@ -21,7 +21,9 @@
         padding-left: 10px;
         box-sizing: border-box;
         @include mobile{
-            text-align: left;
+            text-align: center;
+            width: 100%;
+            margin-top: 40px;;
             p{
                 font-size: 13px;
                 line-height: 1.5;
@@ -35,10 +37,15 @@
     .flex{
         display: flex;
         justify-content: space-between;
-        align-items: top;
+        align-items: center;
+        flex-wrap: wrap;
     }
     .lower-contact{
         text-align: center;
+        padding: 0px 20%;
+        @include mobile{
+            padding: 0px 20px;
+        }
     }
     .black{
         color: #212121;

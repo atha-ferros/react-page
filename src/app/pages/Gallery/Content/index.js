@@ -30,6 +30,21 @@ const SlideContent = [
         description: 'There’s an integrated dining area with a well designed shop periphery and a children’s arcade for their entertainment.',
         img: Images.Gallery5
     },
+    {
+        heading: 'WELL-PLANNED FOOD COURT',
+        description: 'There’s an integrated dining area with a well designed shop periphery and a children’s arcade for their entertainment.',
+        img: Images.Gallery6
+    },
+    {
+        heading: 'WELL-PLANNED FOOD COURT',
+        description: 'There’s an integrated dining area with a well designed shop periphery and a children’s arcade for their entertainment.',
+        img: Images.Gallery7
+    },
+    {
+        heading: 'WELL-PLANNED FOOD COURT',
+        description: 'There’s an integrated dining area with a well designed shop periphery and a children’s arcade for their entertainment.',
+        img: Images.Gallery8
+    },
 ]
 
 const Slide = () =>  SlideContent.map(item => <div className="slide-container"> <img src={item.img}/> </div>)

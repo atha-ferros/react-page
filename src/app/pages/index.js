@@ -71,16 +71,16 @@ export default class Root extends React.Component{
         return(
             <React.Fragment>
                 <Router history={browserHistory}>
-                  <React.Fragment>
-                    <Header/>
-                    <Switch>
-                      <Route path="/initiative" component={LoadableInitiativePage} />
-                      <Route path="/gallery" component={LoadableGalleryPage} />
-                      <Route path="/contact" component={LoadableContactPage} />
-                      <Route path="/" component={LoadableHomePage} />
-                    </Switch>
-                    <Footer/>
-                  </React.Fragment>
+                    <React.Fragment>
+                        <Header/>
+                        <Switch>
+                            <Route path="/initiative" component={LoadableInitiativePage} />
+                            <Route path="/gallery" component={LoadableGalleryPage} />
+                            <Route path="/contact" component={LoadableContactPage} />
+                            <Route path="/" component={LoadableHomePage} />
+                        </Switch>
+                        <Footer/>
+                    </React.Fragment>
                 </Router>
                 {/* Hello World */}
             </React.Fragment>

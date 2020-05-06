@@ -4,7 +4,7 @@ import growth from './home/growth.png'
 import vision from './home/vision.png'
 import mission from './home/mission.png'
 import core from './home/core.png'
-import product from './home/product1.png'
+import product from './product.png'
 import md from './home/md.png'
 import org from './org.png'
 import client from './client.png'
@@ -19,6 +19,9 @@ import Gallery2 from './Gallery/gallery2.png'
 import Gallery3 from './Gallery/gallery3.png'
 import Gallery4 from './Gallery/gallery4.png'
 import Gallery5 from './Gallery/gallery5.png'
+import Gallery6 from './Gallery/gallery6.png'
+import Gallery7 from './Gallery/gallery7.png'
+import Gallery8 from './Gallery/gallery8.png'
 
 export default {
     section1_bg,
@@ -41,4 +44,7 @@ export default {
     Gallery3,
     Gallery4,
     Gallery5,
+    Gallery6,
+    Gallery7,
+    Gallery8,
 }

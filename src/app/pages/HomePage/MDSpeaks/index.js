@@ -59,7 +59,10 @@ export default class MDSpeaks extends React.Component {
                         The vision was to create employment and lead to make it a success in an environmentally sustainable way. To us, it is very important to gather the insight of every member of the organization. Astha Ferrotech Pvt. Ltd owes its resilience to three fundamental characteristics, which are part of its core philosophy: Dedication & Commitment; Quality & Performance driven approach and ability to provide the highest level of customer satisfaction.
                         <br/>
                         <br/>
-                        When I say quality, it not only means product quality, it also means quality in our people and quality in our relationship that has delighted all our associates for years. Therefore, I look forward to many more further goals with the diversely talented team of our company. Thank you all, on behalf of Astha Ferrotech Pvt.Ltd,
+                        When I say quality, it not only means product quality, it also means quality in our people and quality in our relationship that has delighted all our associates for years. Therefore, I look forward to many more further goals with the diversely talented team of our company. 
+                        <br/>
+                        <br/>
+                        <b>Thank you all, on behalf of Astha Ferrotech Pvt.Ltd,</b>
                     </p>
                 </div>
             </div>

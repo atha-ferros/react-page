@@ -55,7 +55,7 @@ export default class Footer extends React.Component {
                         Adityapur Industrial Area,<br/>
                         Adityapur, Jamshedpur - 832109</p>
                     <p>Phone No..: 0657-2200141/2200731<br/>
-                        Fax: 06572200106<br/>
+                        {/* Fax: 06572200106<br/> */}
                         Office Cell: +91 9304021627<br/></p>
                         {/* FAX: 06572200106<br/>
                         OFFICE CELL: +91 9304021627</p> */}
