@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.scss'
 import GoogleMapReact from 'google-map-react';
+import Marker from './Marker';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -66,15 +67,20 @@ export default class Content extends React.Component {
                 <div className="flex">
                     <div className="map">
                         <GoogleMapReact
-                        bootstrapURLKeys={{ key: 'AIzaSyDMiyBdrQRinSOcQdmi3N2HeIFacM5laDU'}}
-                        defaultCenter={this.props.center}
-                        defaultZoom={this.props.zoom}
+                        bootstrapURLKeys={{ key: atob("QUl6YVN5RG5yaUpicHhZZFZaMkdKZ25NMlhBZGNOLUxjekhyWjFv")}}
+                        defaultCenter={{
+                            lat: 22.7890688,
+                            lng: 86.1400489
+                          }}
+                        defaultZoom={15}
                         >
-                        <AnyReactComponent
-                            lat={86.1400489}
-                            lng={22.7890688}
+                        {/* <AnyReactComponent
+                            lat={"22.7890688"}
+                            lng={"86.1400489"}
                             text="Astha Ferrotech"
-                            />
+                            /> */}
+                            <Marker lat={"22.7890688"}
+                            lng={"86.1400489"}color="#212121" name="Astha Ferrotech"/>
                         </GoogleMapReact>
                     </div>
                     <div className="address">
