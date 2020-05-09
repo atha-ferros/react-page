@@ -12,11 +12,11 @@ const SLIDE_INFO = [
     }, {
         img: 'mission',
         label: 'Mission',
-        description: 'Astha Ferrotech Pvt Ltd aspires to be a leading manufacturer of Ferro Alloys in India. We endeavour to deliver quality products which will help the company to withstand the test of competition. Good quality Ferro Alloys leads to making the Best Steel for a better future infrastructure. ' 
+        description: 'With a set of satisfied clients in India, our company seeks to expand its vision to consolidate its position in the international market. We strive to grow our business with the same honesty & integrity. Our mission is to generate euphoria amongst our employees so that they are motivated to keep our clients happy. Happy employees equate to successful & satisfied clients.' 
     }, {
         img: 'core',
         label: 'Core Values',
-        description: 'Astha Ferrotech Pvt Ltd aspires to be a leading manufacturer of Ferro Alloys in India. We endeavour to deliver quality products which will help the company to withstand the test of competition. Good quality Ferro Alloys leads to making the Best Steel for a better future infrastructure. '
+        description: 'We are committed to manufacture & supply quality Ferro Alloys to meet customer satisfaction and to comply with statutory and regulatory requirements. We continuously strive to improve the effectiveness of quality management systems.'
     }
 ]
 
