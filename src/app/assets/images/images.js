@@ -1,4 +1,5 @@
-import section1_bg from './home/section1.png'
+// import section1_bg from './home/section1.png'
+import section1_bg from './Gallery/gallery8.png'
 import about from './home/about.png'
 import growth from './home/growth.png'
 import vision from './home/vision.png'

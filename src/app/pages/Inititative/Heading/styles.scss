@@ -18,10 +18,12 @@
         // }
     }
     img{
+        height: 100%;
         width: 100%;
         @include mobile{
-            
-            height: 100%;display: none;
+            height: 500px;
+            width: 100%;
+            visibility: hidden;
         }
     }
 }

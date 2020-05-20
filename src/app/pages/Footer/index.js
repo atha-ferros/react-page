@@ -68,21 +68,12 @@ All Rights Reserved.</p>
                 </div>
                 <div className="right">
                     <div className="menu-left">
-                        <Link to="">home</Link>
+                        <Link to="/">home</Link>
                         <Link to="/initiative">our initiatives</Link>
                         <Link to="/gallery">gallery</Link>
-                        <Link to="/contact">conatct us</Link>
+                        <Link to="/contact">contact us</Link>
                     </div>
-                    
-                    <br/><br/><br/><br/><br/><br/><br/>
                     <img src={Images.logo}/>
-                    {/* <div className="menu-right">
-                        <p>Careers</p>
-                        <p>Press</p>
-                        <p>Privacy Policy</p>
-                    </div> */}
-                    {/* <p className="footer">2020 Astha Ferrotech Pvt. Ltd.<br/>
-All Rights Reserved.</p> */}
                 </div>
             </div>
         )

@@ -130,6 +130,8 @@
         img{
             position: absolute;
             bottom: 0px;
+            height: 60px;
+            left: 0px;
             @include tablet{
 
                 bottom: 20px;

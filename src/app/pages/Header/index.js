@@ -58,7 +58,6 @@ export default class Header extends React.Component {
             <div className="header-container" onClick={this.toggleMenu}>
                 <div className="logo-section">
                     <img src={Images.logo} className="logo"/>
-                    <h5>ASTHA FERROTECH PVT. LTD.</h5>
                 </div>
                 <div className="navbar">
                     <Link  to="/">Home</Link>

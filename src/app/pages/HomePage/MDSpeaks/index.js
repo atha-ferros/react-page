@@ -62,7 +62,7 @@ export default class MDSpeaks extends React.Component {
                         When I say quality, it not only means product quality, it also means quality in our people and quality in our relationship that has delighted all our associates for years. Therefore, I look forward to many more further goals with the diversely talented team of our company. 
                         <br/>
                         <br/>
-                        <b>Thank you all, on behalf of Astha Ferrotech Pvt.Ltd,</b>
+                        <b>Thank you all, on behalf of Astha Ferrotech Pvt.Ltd.</b>
                     </p>
                 </div>
             </div>

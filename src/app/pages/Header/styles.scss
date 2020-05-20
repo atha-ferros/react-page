@@ -30,16 +30,14 @@
         height: 100%;
         .logo{
             display: inline-block;
-            height: 70%;
-            margin: 10px 0px 0px 70px;
+            height: 65%;
+            margin: 20px 0px 0px 70px;
             @include tablet{
-                margin: 20px 0px 0px 70px;
-                // height: 50%;
+                margin: 10px 0px 0px 70px;
             }
             @include mobile{
-                margin: 20px 0px 0px 30px;
-                // height: 200%;
-                height: 50px;
+                margin: 0px;
+                height: 100px;
             }
         }
         h5{
