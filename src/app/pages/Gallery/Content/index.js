@@ -6,6 +6,7 @@ import { ArrowRight, ArrowLeft } from 'react-feather'
 
 const SlideContent = [
     { img:Images.Gallery1 },
+    { img:Images.Gallery2 },
     { img:Images.Gallery3 },
     { img:Images.Gallery4 },
     { img:Images.Gallery5 },
@@ -15,14 +16,7 @@ const SlideContent = [
     { img:Images.Gallery9 },
     { img:Images.Gallery10 },
     { img:Images.Gallery11 },
-    { img:Images.Gallery12 },
-    { img:Images.Gallery13 },
-    { img:Images.Gallery14 },
-    // { img:Images.Gallery15 },
-    { img:Images.Gallery16 },
-    { img:Images.Gallery17 },
-    { img:Images.Gallery18 },
-    { img:Images.Gallery19 },
+    { img:Images.Gallery12 }
 ]
 
 const Slide = () =>  SlideContent.map(item => <div className="slide-container"> <img src={item.img}/> </div>)
