@@ -5,46 +5,24 @@ import Carousel from '../../../assets/components/Carousel'
 import { ArrowRight, ArrowLeft } from 'react-feather' 
 
 const SlideContent = [
-    {
-        heading: 'PROMISING. OVERWHELMING.',
-        description: 'Imagined to suit all, onyx mall is a one-stop choice when it comes to space, functionality & purpose.',
-        img: Images.Gallery1
-    },
-    // {
-    //     heading: 'MAGNIFICIENT ENTRANCE',
-    //     description: 'Eqipped with automatic sensor gates, air-conditioned (HVAC), Hi-end interiors, escalators, automatic lifts.',
-    //     img: Images.Gallery2
-    // },
-    {
-        heading: 'ANCHOR SHOWROOMS, SMALL & MEDIUM RETAIL SPACES',
-        description: 'An option to customize your space accompanied by an exclusive designer lobby.',
-        img: Images.Gallery3
-    },
-    {
-        heading: 'SPACES TO REDEFINE YOUR ENTERPRISE',
-        description: 'With optimum floor-to-ceiling height, your brand gets maximum visibility.',
-        img: Images.Gallery4
-    },
-    {
-        heading: 'WELL-PLANNED FOOD COURT',
-        description: 'There’s an integrated dining area with a well designed shop periphery and a children’s arcade for their entertainment.',
-        img: Images.Gallery5
-    },
-    {
-        heading: 'WELL-PLANNED FOOD COURT',
-        description: 'There’s an integrated dining area with a well designed shop periphery and a children’s arcade for their entertainment.',
-        img: Images.Gallery6
-    },
-    {
-        heading: 'WELL-PLANNED FOOD COURT',
-        description: 'There’s an integrated dining area with a well designed shop periphery and a children’s arcade for their entertainment.',
-        img: Images.Gallery7
-    },
-    {
-        heading: 'WELL-PLANNED FOOD COURT',
-        description: 'There’s an integrated dining area with a well designed shop periphery and a children’s arcade for their entertainment.',
-        img: Images.Gallery8
-    },
+    { img:Images.Gallery1 },
+    { img:Images.Gallery3 },
+    { img:Images.Gallery4 },
+    { img:Images.Gallery5 },
+    { img:Images.Gallery6 },
+    { img:Images.Gallery7 },
+    { img:Images.Gallery8 },
+    { img:Images.Gallery9 },
+    { img:Images.Gallery10 },
+    { img:Images.Gallery11 },
+    { img:Images.Gallery12 },
+    { img:Images.Gallery13 },
+    { img:Images.Gallery14 },
+    // { img:Images.Gallery15 },
+    { img:Images.Gallery16 },
+    { img:Images.Gallery17 },
+    { img:Images.Gallery18 },
+    { img:Images.Gallery19 },
 ]
 
 const Slide = () =>  SlideContent.map(item => <div className="slide-container"> <img src={item.img}/> </div>)

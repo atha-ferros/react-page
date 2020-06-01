@@ -48,7 +48,7 @@ export default class Products extends React.Component {
             <div className="product-container">
                 <div className="content">
                     <h2>OUR Products</h2>
-                    <p>The company has been manufacturing <b>low carbon ferro manganese, medium carbon ferro manganese, ferro titanium ferro molybdenum & ferro chrome.</b> We also manufacture <b>aluminium cubes, shots & ingots.</b> We are also planning to add more products as per the demand in the market.</p>
+                    <p>The company has been manufacturing <b>Low Carbon Ferro Manganese, medium carbon ferro manganese, ferro titanium ferro molybdenum & ferro chrome.</b> We also manufacture <b>aluminium cubes, shots & ingots.</b> We are also planning to add more products as per the demand in the market.</p>
                 </div>
                 <img src={images.product}/>
             </div>

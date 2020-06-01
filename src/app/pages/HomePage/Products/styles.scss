@@ -5,6 +5,7 @@
     height: 100vh;
     display: flex;
     padding: 160px;
+    align-items: center;
     @include tablet{
         padding: 100px 50px;
     }
