@@ -102,8 +102,7 @@ export default class Content extends React.Component {
                     </div> */}
                     <div>
                         <h5>PHONE NO.</h5><br/>
-                        <h5 className="black">0657-2200141<br/>
-                        0657-2200731</h5>
+                        <h5 className="black">0657-2951551</h5>
                     </div>
                     <div>
                         <h5>OFFICE CELL</h5><br/>
