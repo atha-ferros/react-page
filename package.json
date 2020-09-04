@@ -25,7 +25,7 @@
   "homepage": "https://app.kodeiya.com",
   "dependencies": {
     "google-map-react": "^1.1.6",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "react": "^16.0.0",
     "react-day-picker": "^7.3.0",
     "react-dom": "^16.0.0",
